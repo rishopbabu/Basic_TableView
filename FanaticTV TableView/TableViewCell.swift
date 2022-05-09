@@ -8,16 +8,46 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    static let identifier = "TableViewCell"
+    
+    private let nameLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = .black
+        label.text = "Show Name"
+        label.font = UIFont.medium_hellix(14)
+        return label
+    }()
+    
+    private let nameTextField: UITextField = {
+        let textField = UITextField()
+        textField.textColor = .black
+        textField.text = "User Name"
+        textField.font = UIFont.medium_hellix(13)
+        return textField
+    }()
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.backgroundColor = .clear
+        contentView.addSubview(nameLabel)
+        contentView.addSubview(nameTextField)
+        
+        textLabel?.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            nameLabel.topAnchor.constraint(equalTo: topAnchor),
+            nameLabel.bottomAnchor.constraint(equalTo: bottomAnchor),
+            
+        ])
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-
+    
+//    override func layoutSubviews() {
+//        nameLabel.frame = CGRect(x: 5, y: 5, width: 100, height: contentView.frame.size.height)
+//        nameTextField.frame = CGRect(x: 10, y: 10, width: 100, height: 100)
+//    }
 }

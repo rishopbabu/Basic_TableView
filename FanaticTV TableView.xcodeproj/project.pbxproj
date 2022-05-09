@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A584F1A2828CFFF007D6815 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */; };
 		6ADE94302824C0F90093ECB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE942F2824C0F90093ECB3 /* AppDelegate.swift */; };
 		6ADE94322824C0F90093ECB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE94312824C0F90093ECB3 /* SceneDelegate.swift */; };
 		6ADE94342824C0F90093ECB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE94332824C0F90093ECB3 /* ViewController.swift */; };
-		6ADE94372824C0F90093ECB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94352824C0F90093ECB3 /* Main.storyboard */; };
 		6ADE94392824C0FB0093ECB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94382824C0FB0093ECB3 /* Assets.xcassets */; };
-		6ADE943C2824C0FB0093ECB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE943A2824C0FB0093ECB3 /* LaunchScreen.storyboard */; };
+		6ADE944B2824C87D0093ECB3 /* Hellix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94462824C87D0093ECB3 /* Hellix-Regular.ttf */; };
+		6ADE944C2824C87D0093ECB3 /* Hellix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94472824C87D0093ECB3 /* Hellix-Bold.ttf */; };
+		6ADE944D2824C87D0093ECB3 /* Hellix-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94482824C87D0093ECB3 /* Hellix-Light.ttf */; };
+		6ADE944E2824C87D0093ECB3 /* Hellix-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE94492824C87D0093ECB3 /* Hellix-SemiBold.ttf */; };
+		6ADE944F2824C87D0093ECB3 /* Hellix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADE944A2824C87D0093ECB3 /* Hellix-Medium.ttf */; };
+		6ADE94512824CAD50093ECB3 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE94502824CAD40093ECB3 /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		6ADE942C2824C0F90093ECB3 /* FanaticTV TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FanaticTV TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADE942F2824C0F90093ECB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ADE94312824C0F90093ECB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6ADE94332824C0F90093ECB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6ADE94362824C0F90093ECB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ADE94382824C0FB0093ECB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6ADE943B2824C0FB0093ECB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADE943D2824C0FB0093ECB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADE94462824C87D0093ECB3 /* Hellix-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Regular.ttf"; sourceTree = "<group>"; };
+		6ADE94472824C87D0093ECB3 /* Hellix-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Bold.ttf"; sourceTree = "<group>"; };
+		6ADE94482824C87D0093ECB3 /* Hellix-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Light.ttf"; sourceTree = "<group>"; };
+		6ADE94492824C87D0093ECB3 /* Hellix-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-SemiBold.ttf"; sourceTree = "<group>"; };
+		6ADE944A2824C87D0093ECB3 /* Hellix-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hellix-Medium.ttf"; sourceTree = "<group>"; };
+		6ADE94502824CAD40093ECB3 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		6ADE942E2824C0F90093ECB3 /* FanaticTV TableView */ = {
 			isa = PBXGroup;
 			children = (
+				6ADE94452824C8650093ECB3 /* Fonts */,
 				6ADE942F2824C0F90093ECB3 /* AppDelegate.swift */,
 				6ADE94312824C0F90093ECB3 /* SceneDelegate.swift */,
 				6ADE94332824C0F90093ECB3 /* ViewController.swift */,
-				6ADE94352824C0F90093ECB3 /* Main.storyboard */,
+				6ADE94502824CAD40093ECB3 /* UIFont.swift */,
 				6ADE94382824C0FB0093ECB3 /* Assets.xcassets */,
-				6ADE943A2824C0FB0093ECB3 /* LaunchScreen.storyboard */,
 				6ADE943D2824C0FB0093ECB3 /* Info.plist */,
+				6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */,
 			);
 			path = "FanaticTV TableView";
+			sourceTree = "<group>";
+		};
+		6ADE94452824C8650093ECB3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6ADE94472824C87D0093ECB3 /* Hellix-Bold.ttf */,
+				6ADE94482824C87D0093ECB3 /* Hellix-Light.ttf */,
+				6ADE944A2824C87D0093ECB3 /* Hellix-Medium.ttf */,
+				6ADE94462824C87D0093ECB3 /* Hellix-Regular.ttf */,
+				6ADE94492824C87D0093ECB3 /* Hellix-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADE943C2824C0FB0093ECB3 /* LaunchScreen.storyboard in Resources */,
 				6ADE94392824C0FB0093ECB3 /* Assets.xcassets in Resources */,
-				6ADE94372824C0F90093ECB3 /* Main.storyboard in Resources */,
+				6ADE944B2824C87D0093ECB3 /* Hellix-Regular.ttf in Resources */,
+				6ADE944C2824C87D0093ECB3 /* Hellix-Bold.ttf in Resources */,
+				6ADE944F2824C87D0093ECB3 /* Hellix-Medium.ttf in Resources */,
+				6ADE944D2824C87D0093ECB3 /* Hellix-Light.ttf in Resources */,
+				6ADE944E2824C87D0093ECB3 /* Hellix-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,31 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADE94342824C0F90093ECB3 /* ViewController.swift in Sources */,
+				6A584F1A2828CFFF007D6815 /* CustomTableViewCell.swift in Sources */,
 				6ADE94302824C0F90093ECB3 /* AppDelegate.swift in Sources */,
+				6ADE94512824CAD50093ECB3 /* UIFont.swift in Sources */,
 				6ADE94322824C0F90093ECB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6ADE94352824C0F90093ECB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6ADE94362824C0F90093ECB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6ADE943A2824C0FB0093ECB3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6ADE943B2824C0FB0093ECB3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6ADE943E2824C0FB0093ECB3 /* Debug */ = {
@@ -291,7 +300,6 @@
 				INFOPLIST_FILE = "FanaticTV TableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +326,6 @@
 				INFOPLIST_FILE = "FanaticTV TableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
