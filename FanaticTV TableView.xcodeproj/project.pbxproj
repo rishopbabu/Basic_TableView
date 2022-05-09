@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A584F1A2828CFFF007D6815 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */; };
+		6AB586FE28290EE800C303F2 /* sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB586FD28290EE800C303F2 /* sample.storyboard */; };
 		6ADE94302824C0F90093ECB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE942F2824C0F90093ECB3 /* AppDelegate.swift */; };
 		6ADE94322824C0F90093ECB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE94312824C0F90093ECB3 /* SceneDelegate.swift */; };
 		6ADE94342824C0F90093ECB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE94332824C0F90093ECB3 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6AB586FD28290EE800C303F2 /* sample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sample.storyboard; sourceTree = "<group>"; };
 		6ADE942C2824C0F90093ECB3 /* FanaticTV TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FanaticTV TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADE942F2824C0F90093ECB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ADE94312824C0F90093ECB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				6ADE94382824C0FB0093ECB3 /* Assets.xcassets */,
 				6ADE943D2824C0FB0093ECB3 /* Info.plist */,
 				6A584F192828CFFF007D6815 /* CustomTableViewCell.swift */,
+				6AB586FD28290EE800C303F2 /* sample.storyboard */,
 			);
 			path = "FanaticTV TableView";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				6ADE94392824C0FB0093ECB3 /* Assets.xcassets in Resources */,
 				6ADE944B2824C87D0093ECB3 /* Hellix-Regular.ttf in Resources */,
+				6AB586FE28290EE800C303F2 /* sample.storyboard in Resources */,
 				6ADE944C2824C87D0093ECB3 /* Hellix-Bold.ttf in Resources */,
 				6ADE944F2824C87D0093ECB3 /* Hellix-Medium.ttf in Resources */,
 				6ADE944D2824C87D0093ECB3 /* Hellix-Light.ttf in Resources */,
